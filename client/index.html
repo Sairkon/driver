@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drivers hub</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="navbar container">
+            <a><img src="img/Logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#offers">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/employee-form">For Shippers</a></li>
+                </ul>
+                <div class="navburger">
+                    <img src="img/Burger.svg" alt="navburger">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="preloader">
+        <div class="container">
+            <div class="preloaderText">
+                <h1><span>Champions</span> of Reliability and Excellence in the <span>Trucking</span> Field.</h1>
+                <p>We are seeking talented drivers ready to be part of a successful logistics company.</p>
+                <div class="btnContainer">
+                    <!-- <button type="button" id="exploreBtn"><a href="#offers">Explore</a></button>
+                    <button type="button" id="contactBtn"><a href="#contact">Contact Us</a></button> -->
+                    <a href="#offers">Explore</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="cardsContainer"> 
+                    <div class="card">
+                        <div class="cardDrHired">
+                            <img src="img/Figure_orange.svg" alt="figure">
+                        </div>
+                        <p>700+</p>
+                        <span>Drivers Hired</span>
+                    </div>
+                    <div class="card">
+                        <div class="cardStates">
+                            <img src="img/Figure_blue.svg" alt="figure">
+                        </div>
+                        <p>48 States</p>
+                        <span>Dealing States</span>
+                    </div>
+                    <div class="card">
+                        <div class="cardExp">
+                            <img src="img/figure_green.svg" alt="figure">
+                        </div>
+                        <p>4 years</p>
+                        <span>Experience in Market</span>
+                    </div>
+                </div>
+            </div>
+            <div class="preloaderImg">
+                <div class="imgContainer">
+                    <img src="/img/truck_img.svg" alt="truck">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="partnersSection">
+        <div class="partners container">
+            <div class="partner-logo"><img src="img/partner1.svg" alt="Partner 1"></div>
+            <div class="partner-logo"><img src="img/partner2.svg" alt="Partner 2"></div>
+            <div class="partner-logo"><img src="img/partner3.svg" alt="Partner 3"></div>
+            <div class="partner-logo"><img src="img/partner4.svg" alt="Partner 4"></div>
+            <div class="partner-logo"><img src="img/partner5.svg" alt="Partner 5"></div>
+        </div>
+    </section>
+    <section id="offers" class="ourOffers">
+        <div class="container">
+            <h2>Our Offers</h2>
+            <div class="offersContainer">
+                <div class="offerBlock">
+                    <div class="offer">
+                        <img src="./img/offer1.png" alt="">
+                        <div class="offer-content">
+                            <p>Owner Operator</p>
+                            <ul>
+                                <li>$7000-10000 weekly</li>
+                                <li>24/7 dispatch service</li>
+                                <li>Dedicated lanes</li>   
+                            </ul>
+                        </div>
+                    </div>
+                    <button data-role="OwnerOperator">Apply</button>
+                </div>
+                <div class="offerBlock">
+                    <div class="offer">
+                        <img src="./img/offer3.png" alt="">
+                        <div class="offer-content">
+                            <p>Company Driver</p>
+                            <ul>
+                                <li>0.65 cpm or 30% of gross</li>
+                                <li>2023-2024 Trucks</li>
+                                <li>Stable loads</li>   
+                            </ul>
+                        </div>
+                    </div>
+                    <button data-role="CompanyDriver">Apply</button>
+                </div>
+                <div class="offerBlock">
+                    <div class="offer">
+                        <img src="./img/offer2.png" alt="">
+                        <div class="offer-content">
+                            <p>Lease Operator</p>
+                            <ul>
+                                <li>87% of gross</li>
+                                <li>2020-2024 Trucks</li>
+                                <li>Fuel discounts</li>   
+                            </ul>
+                        </div>
+                    </div>
+                    <button data-role="LeaseOperator">Apply</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="news">
+        <div class="container news-container">
+            <h2>Subscribe To Our <br>Newsletter</h2>
+            <p>Age sold some full like rich new. Amounted repeated as<br> believed in confined juvenile.</p>
+            <button><a href="">Subscribe</a></button>
+        </div>
+    </section>
+    <section id="contact" class="contactUs">
+        <div class="contact-container container">
+            <h2>Contact Us</h2>
+            <p>Our team will get back to you within 12 hours</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="fullName" id="fullName" placeholder=" " required>
+                    <label for="fullName">Full Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder=" " required>
+                    <label for="phoneNumber">Phone Number</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group-select">
+                    <select name="role" id="role" required>
+                        <option value="" disabled selected></option>
+                        <option value="OwnerOperator">Owner Operator</option>
+                        <option value="LeaseOperator">Lease Operator</option>
+                        <option value="CompanyDriver">Company Driver</option>
+                    </select>
+                    <label for="role">Please choose which one applies to you</label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>            
+            
+            <div id="loadingOverlay" class="loading-overlay hidden">
+                <div class="loading-icon"></div> 
+                <p id="responseMessage" class="hidden"></p> 
+            </div>                        
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h2>CONSTRUCTION</h2>
+                        <p>You’ll find your next Home loan valu you prefer.</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="img/Instagram.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="rights"><p>&copy; 2024 Drivers-HUB Company. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
